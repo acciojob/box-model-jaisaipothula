@@ -1,43 +1,38 @@
-/* Ensure the body takes full height and center the container */
 body {
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; /* Light background color for contrast */
+    background-color: #f0f0f0; 
 }
-
-/* Styles for the container */
 .container {
-    display: flex; /* Align children (blocks) in a row */
-    justify-content: center; /* Center blocks horizontally */
-    align-items: center; /* Center blocks vertically */
-    gap: 10px; /* Space between the blocks */
-    padding: 20px; /* Padding inside the container */
-    border: 3px solid #000; /* Border around the container */
-    border-radius: 15px; /* Rounded corners for the container */
-    background-color: #fff; /* Background color for the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for some depth */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    padding: 20px; 
+    border: 3px solid #000; 
+    border-radius: 15px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Common styles for the colored blocks */
 .container div {
-    width: 100px; /* Width of the block */
-    height: 100px; /* Height of the block */
-    border-radius: 50%; /* Make the block a circle */
-    display: inline-block; /* Display the blocks inline */
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    display: inline-block; 
 }
-
-/* Specific colors for each block */
+/
 .red {
-    background-color: red; /* Red color */
+    background-color: red; 
 }
 
 .green {
-    background-color: green; /* Green color */
+    background-color: green; 
 }
 
 .yellow {
-    background-color: yellow; /* Yellow color */
+    background-color: yellow; 
 }
